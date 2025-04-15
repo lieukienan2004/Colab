@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#instructions {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#instructions h2, #instructions h3 {
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
